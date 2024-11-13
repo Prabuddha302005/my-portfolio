@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Showcase</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+   
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <style>
+        /* Custom CSS */
+        body {
+            background-color: #f7f8fc;
+            font-family: Arial, sans-serif;
+        }
+
+        .project-header {
+            text-align: center;
+            margin-top: 20px;
+            color: #333;
+        }
+
+        .project-video {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 20px 0;
+        }
+
+        .video-wrapper {
+            position: relative;
+        
+            width: 100%;
+            max-width: 800px;
+        }
+
+        .video-wrapper iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .project-description {
+            padding: 10px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 800px;
+            margin: 10px auto; /* Reduced margin */
+        }
+
+        .project-details {
+            color: #555;
+            line-height: 1.6;
+        }
+
+        .btn-primary {
+            background-color: #6F58E0;
+            border: none;
+        }
+
+        .btn-primary:hover {
+            background-color: #5a4bb5;
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            .project-header h1 {
+                font-size: 1.8rem;
+            }
+
+            .project-description {
+                padding: 10px; 
+            }
+            .video-wrapper iframe{
+                height: 100%;
+            }
+
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Header Section -->
+        <div class="project-header">
+            <h1>Ultron Arts</h1>
+            <p class="text-muted">An overview of the project showcasing its features and functionalities.</p>
+        </div>
+
+        <!-- Video Section -->
+        <div class="project-video">
+            <div class="video-wrapper">
+                <!-- Replace with your video URL -->
+                <video id="myVideo" width="100%" height="auto" controlsList="nodownload" autoplay loop muted>
+                    <source src="videos/Ultron Arts Project - Made with Clipchamp (1).mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                
+            </div>
+        </div>
+  
+        <!-- Project Description Section -->
+        <div class="project-description">
+            <h2>Project Summary</h2>
+            <p class="project-details">
+                This project is a customizable website designed for Ultron Arts, specializing in showcasing acrylic products. 
+                It was developed using Django and Bootstrap to ensure a responsive, modern, and attractive interface. The website enables the admin to easily update images, add descriptions, and even introduce new projects, making it adaptable for future product expansions and updates.
+            </p>
+            <p class="project-details">
+                This dynamic platform benefits the client by enhancing customer engagement through its visually appealing design and easy-to-navigate layout. By showcasing high-quality product images and detailed descriptions, the website helps attract more potential customers, effectively boosting client visibility and market reach.
+            </p>
+            <!-- <a href="#" class="btn btn-primary mt-3">Visit Project</a> -->
+            <div class="project-benefits mt-5">
+                <h2>Why a Customizable Website is Essential for Your Business ?</h2>
+            
+                <!-- Headline 1 -->
+                <h4>1. Attract More Clients with a Stunning Online Presence</h4>
+                <p class="project-details">
+                    A professionally designed website allows you to present your products or services in the best possible light. With high-quality visuals, customizable descriptions, and user-friendly navigation, this type of website ensures visitors can easily explore what you have to offer, helping you attract and convert more clients.
+                </p>
+            
+                <!-- Headline 2 -->
+                <h4>2. Reliability and Flexibility for Growing Businesses</h4>
+                <p class="project-details">
+                    Unlike static websites, a customizable platform gives you the flexibility to adapt to new trends, add new content, and update existing information without needing technical support. This reliability and adaptability ensure that your website remains current and relevant, building trust with clients who value up-to-date and accurate information.
+                </p>
+            
+                <!-- Headline 3 -->
+                <h4>3. Solving Your Business Challenges Efficiently</h4>
+                <p class="project-details">
+                    As a developer, I understand the unique challenges businesses face when trying to reach new customers and engage their audience. Through strategic design and seamless functionality, I aim to create solutions that address these issues, whether it’s improving client engagement, enhancing accessibility, or enabling easier content management. This website empowers you to reach your business goals effectively.
+                </p>
+
+                <a href="index.html#portfolio"><button class="btn" style="background-color:  #131628; color: #ffffff;">See More Projects</button></a>
+            </div>
+        </div>
+       
+        
+    </div>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prabuddha's Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+   
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <style>
+        /* Custom CSS */
+        body {
+            background-color: #f7f8fc;
+            font-family: Arial, sans-serif;
+        }
+
+        .project-header {
+            text-align: center;
+            margin-top: 20px;
+            color: #333;
+        }
+
+        .project-video {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 20px 0;
+        }
+
+        .video-wrapper {
+            position: relative;
+        
+            width: 100%;
+            max-width: 800px;
+        }
+
+        .video-wrapper iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .project-description {
+            padding: 10px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 800px;
+            margin: 10px auto; /* Reduced margin */
+        }
+
+        .project-details {
+            color: #555;
+            line-height: 1.6;
+        }
+
+        .btn-primary {
+            background-color: #6F58E0;
+            border: none;
+        }
+
+        .btn-primary:hover {
+            background-color: #5a4bb5;
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            .project-header h1 {
+                font-size: 1.8rem;
+            }
+
+            .project-description {
+                padding: 10px; 
+            }
+            .video-wrapper iframe{
+                height: 100%;
+            }
+
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Header Section -->
+        <div class="project-header">
+            <h1>Ultron Arts</h1>
+            <p class="text-muted">An overview of the project showcasing its features and functionalities.</p>
+        </div>
+
+        <!-- Video Section -->
+        <div class="project-video">
+            <div class="video-wrapper">
+                <!-- Replace with your video URL -->
+                <video id="myVideo" width="100%" height="auto" controlsList="nodownload" autoplay loop muted>
+                    <source src="videos/CRM - Made with Clipchamp.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                
+            </div>
+        </div>
+  
+        <!-- Project Description Section -->
+        <div class="project-description">
+            <h2>Project Summary</h2>
+            <p class="project-details">
+                This Client Management System (CRM) was developed for Starx Innovations and IT Solutions to streamline the management of students, interns, and employees. Built using Django and Bootstrap, the system offers a robust interface for tracking essential details, including managing student and intern fees, employee salaries, assigned projects, and notes. This CRM ensures that all client and internal data is organized and accessible, supporting Starx Innovations' operational efficiency and growth.
+            </p>
+            <p class="project-details">
+                By centralizing data management, this CRM solution allows the client to track progress and maintain detailed records effortlessly. With its user-friendly interface, admins can update entries, assign tasks, and handle finances in one unified platform, simplifying day-to-day operations.
+            </p>
+            <!-- <a href="#" class="btn btn-primary mt-3">Visit Project</a> -->
+            <div class="project-benefits mt-5">
+                <h2>How This CRM Solution Benefits Starx Innovations and IT Solutions ?</h2>
+            
+                <!-- Headline 1 -->
+                <h4>1. Enhanced Efficiency in Managing Students, Interns, and Employees</h4>
+                <p class="project-details">
+                    This CRM was designed to handle the unique needs of Starx Innovations, from tracking student fees and intern progress to managing employee assignments and payroll. By automating these processes, the system saves time and minimizes administrative tasks, letting the team focus on core business operations.
+                </p>
+            
+                <!-- Headline 2 -->
+                <h4>2. Streamlined Task Assignment and Progress Tracking</h4>
+                <p class="project-details">
+                    The CRM enables admins to assign projects and notes to each user group, enhancing project visibility and accountability. Team members can easily access their assigned tasks and update their progress, allowing for real-time tracking and facilitating better collaboration and project delivery.
+                </p>
+            
+                <!-- Headline 3 -->
+                <h4>3. Comprehensive Financial Management</h4>
+                <p class="project-details">
+                    For students and interns, the system efficiently manages fee collection, with clear records for both administrators and users. For employees, the system tracks salary details, making financial transactions transparent and easy to monitor. This feature reduces manual errors and offers a clear financial overview, improving trust and satisfaction among all users.
+                </p>
+            
+                <!-- Headline 4 -->
+                <h4>4. Customizable Solutions for Growing Needs</h4>
+                <p class="project-details">
+                    As Starx Innovations grows, this CRM can adapt to new requirements, allowing for future enhancements. Built with flexibility in mind, the platform can accommodate additional modules or adjustments as needed, ensuring long-term value and adaptability for the client.
+                </p>
+    
+    
+                    <a href="index.html#portfolio"><button class="btn" style="background-color:  #131628; color: #ffffff;">See More Projects</button></a>
+                </div>
+        </div>
+
+      
+        </div>
+       
+        
+    </div>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

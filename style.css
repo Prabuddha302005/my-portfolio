@@ -1,0 +1,413 @@
+    /* Main Section Styling */
+    .navbar{
+        background-color: #131628;
+       
+    }
+    .welcome{
+        background-color: #131628;
+        color: #ffffff;
+    }
+    .main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: #ffffff;
+        background: linear-gradient(90deg, rgba(216,83,255,1) 13%, rgba(136,71,222,1) 56%, rgba(92,49,224,1) 100%);
+
+        padding: 3rem;
+        min-height: 60vh;
+      }
+  
+      .main h1 {
+        font-size: 3rem;
+        /* font-family: "Poppins", serif; */
+        color: #131628;
+        font-weight: 700;
+        line-height: 1.2;
+        max-width: 900px;
+        margin-bottom: 1.5rem;
+        text-shadow: 2px 4px 6px rgba(0, 0, 0, 0.3);
+      }
+  
+      .main p {
+        font-size: 1.25rem;
+        font-weight: 400;
+        max-width: 600px;
+        margin: 0 auto 1.5rem;
+      }
+  
+      /* Button Styling */
+      .cta-button {
+        padding: 0.75rem 2rem;
+        font-size: 1.2rem;
+        font-weight: 600;
+        color: #ffffff;
+        background-color: #131628;
+        border-radius: 30px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
+        text-decoration: none;
+      }
+  
+      .cta-button:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+      }
+
+      /* Responsive Adjustments */
+      @media (max-width: 768px) {
+        .main h1 {
+          font-size: 1.5rem;
+        }
+  
+        .main p {
+          font-size: 1rem;
+        }
+        .cta-button{
+            font-size: 1rem;
+        }
+
+
+      }
+      .help {
+        padding: 3rem 2rem;
+        background: #f8f9fa;
+        text-align: center;
+      }
+  
+      .help h2 {
+        font-size: 2.5rem;
+        margin-bottom: 2rem;
+        font-weight: 700;
+        color: #333;
+      }
+  
+      /* Card Styling */
+      .help-cards {
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+        flex-wrap: wrap;
+      }
+  
+      .help-card {
+        background: #ffffff;
+        border-radius: 12px;
+        padding: 2rem;
+        max-width: 300px;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s;
+      }
+  
+      .help-card:hover {
+        transform: translateY(-10px);
+      }
+  
+      .help-card i {
+        font-size: 2.5rem;
+        color: #6610f2;
+        margin-bottom: 1rem;
+      }
+  
+      .help-card h3 {
+        font-size: 1.5rem;
+        margin-bottom: 0.5rem;
+        font-weight: 600;
+        color: #333;
+      }
+  
+      .help-card p {
+        font-size: 1rem;
+        color: #555;
+      }
+  
+      /* Responsive Adjustments */
+      @media (max-width: 768px) {
+        .help-cards {
+          flex-direction: column;
+          align-items: center;
+        }
+      }
+
+      .portfolio {
+        padding: 4rem 2rem;
+        background-color: #f0f2f5;
+        text-align: center;
+      }
+  
+      .portfolio h2 {
+        font-size: 2.5rem;
+        margin-bottom: 3rem;
+        font-weight: 700;
+        color: #333;
+      }
+  
+      /* Card Styling */
+      .portfolio-card {
+        background: #ffffff;
+        border-radius: 12px;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+        transition: transform 0.3s;
+      }
+  
+      .portfolio-card:hover {
+        transform: translateY(-10px);
+      }
+  
+      .portfolio-card img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+      }
+  
+      .portfolio-card-body {
+        padding: 1.5rem;
+      }
+  
+      .portfolio-card h5 {
+        font-size: 1.25rem;
+        font-weight: 600;
+        color: #333;
+      }
+  
+      .portfolio-card p {
+        color: #666;
+        font-size: 1rem;
+        margin: 1rem 0;
+      }
+  
+      .portfolio-btn {
+        background-color: #6610f2;
+        color: #fff;
+        border-radius: 20px;
+        padding: 0.5rem 1rem;
+        font-size: 0.9rem;
+        transition: background-color 0.3s;
+      }
+  
+      .portfolio-btn:hover {
+        background-color: #520dc2;
+      }
+  
+      /* Responsive Adjustments */
+      @media (max-width: 768px) {
+        .portfolio h2 {
+          font-size: 2rem;
+        }
+      }
+          /* Packages Section Styling */
+    .packages {
+      padding: 4rem 2rem;
+      background: linear-gradient(90deg, rgba(46,33,62,1) 0%, rgba(93,0,107,1) 100%, rgba(92,49,224,1) 100%);
+
+      text-align: center;
+    }
+
+    .packages h1 {
+      font-size: 2.5rem;
+      font-weight: bold;
+      margin-bottom: 2rem;
+      color: #333;
+    }
+
+    .packages {
+      padding: 4rem 2rem;
+      text-align: center;
+    }
+
+    .packages h1 {
+      font-size: 2.5rem;
+      font-weight: bold;
+      margin-bottom: 3rem;
+      color: #f8f9fa;
+    }
+
+    .content-type {
+      font-size: 1.8rem;
+      font-weight: bold;
+      color: #030200;
+      margin-bottom: 1rem;
+    }
+
+    .package-title {
+      font-size: 1.3rem;
+      font-weight: bold;
+      color: #f8c040;
+      margin-top: 1.5rem;
+    }
+
+    .package-list {
+      font-size: 1rem;
+      color: #dcdcdc;
+      list-style-type: none;
+      padding-left: 0;
+      line-height: 1.8;
+    }
+
+    .package-list li::before {
+      content: "• ";
+      color: #f8c040;
+      font-size: 1.2rem;
+      margin-right: 5px;
+    }
+
+    /* Divider Line Styling */
+    .divider {
+      width: 2px;
+      height: 100%;
+      background-color: #f8c040;
+      margin: 0 2rem;
+    }
+
+    /* Layout for columns */
+    .package-column {
+      text-align: left;
+    }
+
+    /* Responsive Adjustments */
+    @media (max-width: 767px) {
+      .divider {
+        width: 100%;
+        height: 2px;
+        margin: 2rem 0;
+      }
+      .package-column {
+        margin-bottom: 2rem;
+      }
+    }
+    
+
+
+    .testimonials {
+      background-color: #f9f9f9;
+    }
+    
+    .testimonial {
+      background-color: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      margin-bottom: 20px;
+    }
+    
+    .testimonial img {
+      border: 2px solid #ddd;
+    }
+    
+    .testimonial h4 {
+      font-weight: bold;
+    }
+    
+    .testimonial p.testimonial-text {
+      font-style: italic;
+      color: #555;
+      
+    }
+
+    .contact {
+      background-color: #f9f9f9; /* Soft background */
+      padding: 3rem 0;
+  }
+  
+  .contact .h {
+      font-size: 2.5rem;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+  }
+  
+  .contact .content h6 {
+      font-size: 1.5rem;
+      color: #131628; /* Primary color */
+      font-weight: bold;
+  }
+  
+  .contact .content p {
+      font-size: 1.2rem;
+      /* color: #c4adad; */
+      max-width: 700px;
+      margin: 0 auto;
+  }
+  
+  .contact .cta-button {
+      background-color: #131628; /* Primary color */
+      color: #fff;
+      border-radius: 25px;
+      font-weight: bold;
+      transition: all 0.3s ease;
+  }
+  
+  .contact .cta-button:hover {
+      background-color: #131628; /* Hover effect */
+      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact .cta-text {
+      font-size: 1.3rem;
+      font-weight: 500;
+      color: #131628;
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: color 0.3s ease;
+  }
+  
+  
+  .contact .button a {
+      text-decoration: none;
+  }
+  
+  .contact .button {
+      margin-top: 20px;
+  }
+  
+  @media (max-width: 768px) {
+      .contact .content h6 {
+          font-size: 1.5rem;
+      }
+  }
+  
+    .about {
+      background: linear-gradient(135deg, #f6f7f8 0%, #e1e6f0 100%);
+  }
+  
+  .about h3 {
+      font-size: 2rem;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+  }
+  
+  .about p {
+      font-size: 1.1rem;
+      line-height: 1.6;
+      color: #333;
+  }
+  
+  .about .shadow-lg {
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about .rounded-lg {
+      border-radius: 15px;
+  }
+  
+  .about .bg-light {
+      background-color: #f9f9f9;
+  }
+  
+  .about .text-primary {
+      color: #6F58E0; /* Add your primary color */
+  }
+  
+  .about .text-danger {
+      color: #DE5499; /* Use a contrasting color for emphasis */
+  }
+  
+  @media (max-width: 768px) {
+      .about .w-75 {
+          width: 90%;
+      }
+  }
+  
